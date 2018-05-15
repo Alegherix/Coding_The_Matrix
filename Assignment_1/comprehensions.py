@@ -6,7 +6,7 @@ set_union = {x*x for x in S | {5,7}}
 print(set_union)
 
 #Kan lägga till if statement inuti comprehensionen.
-set_union = {x * x for x in S | {5, 7} if x > 2}
+set_union = {x * x for x in S | {5, 7} if x > 2 and x<7}
 print(set_union)
 
 #Comprehension för den Kartesiska produkten av två set
