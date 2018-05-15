@@ -1,0 +1,3 @@
+#x * x för varje x i setet. 1*1, 2*2, 3*3...
+square_set = {x*x for x in {1, 2, 3, 4, 5}}
+print(square_set)
